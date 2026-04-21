@@ -480,18 +480,67 @@ text-align:right;
 }
 
 .blog {
+background: #eef2f5;
 text-align: center;
-padding: 50px 0;
+padding: 80px 0;
 }
 
-.blog-box {
+.blog h2 {
+margin-bottom: 40px;
+}
+
+.blog-container {
+width: 80%;
+margin: auto;
 display: flex;
 justify-content: space-between;
 }
 
 .blog-card {
 width: 30%;
+background: white;
+border-radius: 8px;
+overflow: hidden;
+text-align: left;
 }
+
+.img-box {
+position: relative;
+}
+
+.img-box img {
+width: 100%;
+}
+
+.date {
+position: absolute;
+bottom: 10px;
+right: 10px;
+background: #0b2c48;
+color: white;
+padding: 10px;
+text-align: center;
+}
+
+.top {
+font-size: 12px;
+color: #777;
+padding: 10px;
+}
+
+.blog-card h3 {
+padding: 0 10px 20px;
+}
+
+.blog-btn {
+margin-top: 30px;
+padding: 10px 20px;
+background: orange;
+border: none;
+color: white;
+border-radius: 4px;
+}
+
 
 footer {
 
