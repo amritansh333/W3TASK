@@ -43,9 +43,13 @@ height: 70vh;
     width: 50%;
     margin-left: 80px;
 }
+.hero-overlay {
+background: rgba(10, 30, 50, 0.7);
+height: 100%;
+}
 
 .hero h1 {
-font-size: 40px;
+font-size: 60px;
 margin-bottom: 15px;
 }
 
@@ -54,10 +58,11 @@ margin-bottom: 20px;
 }
 
 .btn1 {
-background: yellow;
+background: #f4b400;
 border: none;
 padding: 10px 20px;
 margin-right: 10px;
+color: white;
 }
 
 .btn2 {
