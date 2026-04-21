@@ -293,10 +293,15 @@ text-align: center;
 .stat h2 {
 font-size: 28px;
 margin-bottom: 5px;
+    text-decoration-line: underline;
+    text-decoration-color: #f4b400;
+    text-decoration-thickness: 3px; 
+    text-underline-offset: 1px; 
 }
 
 .stat p {
-color: #777;
+    color: #777;
+
 }
 
 
