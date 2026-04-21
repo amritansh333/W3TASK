@@ -244,15 +244,10 @@ height: 100%;
 width: 80%;
 margin: auto;
 height: 100%;
-
-
 display: flex;
 justify-content: space-between;
 align-items: center;
-
 color: white;
-
-
 }
 
 .exp-content h2 {
@@ -366,6 +361,56 @@ color: #555;
 margin-bottom: 15px;
 }
 
+.presentation {
+background: url("https://images.unsplash.com/photo-1554224155-6726b3ff858f");
+background-size: cover;
+background-position: center;
+height: 300px;
+position: relative;
+}
+
+.presentation-overlay {
+background: rgba(10, 30, 50, 0.7);
+height: 100%;
+}
+
+.presentation-content {
+width: 80%;
+margin: auto;
+height: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+color: white;
+margin-left: 80px;
+}
+
+.presentation .container{
+    width: 50%;
+    margin-left: 80px;
+}
+
+.presentation-content button {
+background: #f4b400;
+border: none;
+width: 50px;
+height: 50px;
+border-radius: 50%;
+color: white;
+}
+
+.presentation-content p {
+color: #f4b400;
+margin-left: 20px;
+
+}
+
+.presentation .container h1{
+width: 120%;
+font-size: 50px;
+margin-bottom: 15px;
+text-align:right;
+}
 
 .blog {
 text-align: center;
